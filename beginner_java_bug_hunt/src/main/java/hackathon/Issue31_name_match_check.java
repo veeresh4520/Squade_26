@@ -1,0 +1,1 @@
+public class Issue31_name_match_check { public static void main(String[] args) { String a=new String("radha"), b=new String("radha"); if(a==b && a.length()>0 && a.charAt(0)!=' ') System.out.println("Same"); else System.out.println("Different"); } }
